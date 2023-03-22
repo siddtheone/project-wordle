@@ -8,7 +8,7 @@ function Cell({ letter, status }) {
   return <span className={className}>{letter}</span>;
 }
 
-function Guess({ value, answer }) {
+function Guess({ value }) {
   return (
     <p className="guess">
       {range(5).map((num) => (
